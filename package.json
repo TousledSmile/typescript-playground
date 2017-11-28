@@ -1,0 +1,33 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc & npm install",
+    "tsc": "tsc",
+    "tsc:dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TousledSmile/typescript-playground.git"
+  },
+  "author": "Anita Włosek",
+  "bugs": {
+    "url": "https://github.com/TousledSmile/typescript-playground/issues"
+  },
+  "homepage": "https://github.com/TousledSmile/typescript-playground#readme",
+  "devDependencies": {
+    "@types/gulp": "^4.0.5",
+    "@types/gulp-concat": "0.0.32",
+    "@types/gulp-typescript": "^2.13.0",
+    "@types/gulp-uglify": "^3.0.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-typescript": "^3.2.3",
+    "gulp-uglify": "^3.0.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {}
+}
